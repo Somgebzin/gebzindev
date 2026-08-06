@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchushedev</title>
+	<style>
+	
+	body{
+
+	background-color: rgba(228, 8, 162, 0.669);
+		}
+	.mytop{
+	width:80%;
+	background-color:#d3c7c7;
+	display: flex;
+	align-items:center;
+	padding:20px;
+	color:black;
+	}
+	
+	
+	nav{
+	flex:1;
+	text-align:center;
+	color:white;
+	
+	}
+	
+	nav  ul {
+	list-style-type: none;
+	
+	}
+	
+	a {
+	font-size:2 rem;
+	
+	}
+	 
+	 a:hover, a: active {
+	 color:blue;
+	 }
+	
+	a:visited{
+	color:purple;
+	}
+	
+	
+	
+	 .container{
+	 width:1000 px;
+	 padding: 100px 0;
+	 margin: 0 auto;
+	 border:4px solid blue;
+	
+	 }
+	#mymiddle{
+	align-items:center;
+	}
+	
+	#mymiddle button{
+	font-size: 2rem;
+	font-weight:bold;
+	padding:20px 40px;
+	
+    margin:50px;
+	min-width:50%;
+	border:none;
+	border-radius:20px;
+	cursor:pointer;
+	color:white;
+	align-items:left;
+	}
+	#mypay{
+	background-color:rgb(3, 32, 86);
+	
+	}
+
+	#mypay:hover{
+		background-color:rgb(3, 32, 60);
+
+	}
+
+
+
+	
+	.mybottom{
+	background-color: rgb(231, 18, 200);
+	width:80%;
+	height:500 px;
+	border: 1 px solid;
+	border-radius: 20 px;
+	font-size : 3 rem;
+	font-weight:bold ;
+	
+	@media screen and (min-width:768px) {
+
+   
+	.container  {
+	width:auto;
+    
+}
+	.mytop{
+	a {
+        width:30%
+		font-size:1 rem;
+}
+#mymiddle button{
+	font-size: 1rem;
+	margin:auto;
+	min-width:40%;
+
+}
+.mybottom{
+	width:40%;
+	font-size : 1 rem;
+	}
+
+	}
+
+	@media screen and (max-width:767px) {
+
+   
+.container  {
+width:auto;
+
+}
+.mytop{
+a {
+	width:30%
+	font-size:0.5 rem;
+}
+#mymiddle button{
+font-size: 1rem;
+margin:auto;
+min-width:40%;
+
+}
+.mybottom{
+width:40%;
+font-size : 0.5 rem;
+}
+
+}
+
+
+	
+	
+	}
+	</style>
+	</head>
+	
+	<body>
+	<div class= "container">
+	<div class= "mytop">
+	<h1>Whac-A-Mole</h1>
+	
+
+	
+	<nav>
+	
+	<ul>
+	<li>
+	<a href = "Practical.html">Practice Mode</a>
+	</li><br>
+	
+	<li>
+	<a href = "#mypayout">Start Game</a>
+	</li><br>
+	
+	
+	<li>
+	<a href = "#myrule">Rules</a>
+	</li><br>
+	
+	</ul>
+	
+	</nav>
+	</div>
+	
+	
+	
+	<section id = "mypayout">
+	<div id = "mymiddle">
+	
+	<h1>How To pay</h1>
+	
+	<p>Select debit or Credit to pay using your card.NOTE Your information is highly secured BY PayPal .<br></p><br><hr>
+
+	
+	<p>Please make sure "shipping same as billing address is DISABLED" .<br></p><img src ="images/disable.png" width="500px"><br><hr>
+	<p>Fee is 0,28$ = R5 .<br></p><br><hr>
+
+	<br>
+	<br>
+	
+	<div id="paypal-button-container-P-0P861425B6790881DM5TJ2AI"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AcZRyJIuXljQTsx_yeC_lecLXsN5sr0oUJ2wy4FvBVolspzYQ-UewN7-A1N9FvNp5QnC46SdEFfY5kxI&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'paypal'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-0P861425B6790881DM5TJ2AI'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-0P861425B6790881DM5TJ2AI'); // Renders the PayPal button
+</script>
+
+<br>
+<br>
+	</div>
+	</section>
+	
+	
+	<section id = "myrule">
+	<div class = "mybottom">
+	<p>1. Go follow this account,this will allow you to send screenshots of your Results  ID:43595144 name:MancushePrime.<br></p><img src="images/My account.jpg" width="300px"><br><hr>
+	<p>2.The Payment game happens once in a week which is Wednesday and you will be paid on Thursday
+	nights.</p><br><hr>
+	<p>3.Once your score reaches 50 please make sure to screenshot .<br></p><img src ="images/screenshot.png" width="300px"><br><hr>
+	<p>4.Never show or send to anyone your results before winner is anounced at my acount on poppo.</p><br><hr>
+	<p>5.Trying to cheat with photoshops wont be tolerated,YOU WILL BE BANNED.</p><br><hr>
+	<p>6.Remember a Winner gets 100k worth of Gift.<br></p><br><hr>
+	<p>7.Practice mode is available for practice.</p><br><hr>
+	<p>8.FASTEST person to reach 50 points wins,GOOD LUCK!!.</p><br><hr>
+	
+	</div>
+	</section>
+	</div>
+	
+	
+	<script>
+	document.getElementById("mypay").addEventListener("click",function(){window.location.href = "https://paypal.me/mancusheDev?country.x=ZA&locale.x=en_US"});
+	</script>
+	
+	</body>
+	</html>
+	
