@@ -76,7 +76,7 @@ margin-bottom: 1px;
 
 let result = 0;
 let hitPosition;
-let currentTime = 80;
+let currentTime = 50;
 let currentDate = new Date()
   let timeId = null
 
@@ -97,7 +97,7 @@ function randomSquare() {
 
 function moveMole() {
 
-    timerId = setInterval(randomSquare,750)
+    timerId = setInterval(randomSquare,550)
 
 }
  moveMole()
@@ -109,7 +109,7 @@ function moveMole() {
             score.textContent = result
             hitPosition = null
         }
- if(result == 50){
+ if(result == 20){
 		 window.alert(currentDate);
 		 }
 
